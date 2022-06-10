@@ -1,0 +1,40 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-stable" ng-class="{'bar-custom' : changeColor}">
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="side-menu21"></ion-nav-view>
+  </ion-side-menu-content>
+  <!-- Shows menu on landscape ipads
+
+  <ion-side-menu expose-aside-when="(min-width:1024px)" side="left" id="side-menu21"> -->
+  <ion-side-menu side="left" id="side-menu21">
+    <style>
+      ion-content.side-menu-left.scroll-content.ionic-scroll.has-header {
+      }
+
+      .item-complex.item-icon-left .item-content {
+        background-color: #464646;
+        color: #F2EDED;
+      }
+
+      .menu {
+        background-color: #464646;
+        color: #F2EDED;
+      }
+
+    </style>
+    <ion-header-bar class="bar-stable">
+      <div class="title">Menu</div>
+    </ion-header-bar>
+    <ion-content padding="false" class="side-menu-left has-header" style="background-color:#3a3a3c;">
+      <ion-list id="menu-null" class=" ">
+        <ion-item id="menu-list-item5" ui-sref="menu.home" menu-close="">
+          Home
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

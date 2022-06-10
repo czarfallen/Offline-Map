@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<body ng-app="app" animation="slide-left-right-ios7">
+<div>
+  <div>
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button class="button-icon icon ion-ios-arrow-back">Back</ion-nav-back-button>
+    </ion-nav-bar>
+    <ion-nav-view style="background-color:#fff;"></ion-nav-view>
+  </div>
+</div>
+</body>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <meta name="format-detection" content="telephone=no">
+    <title></title>
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <link href="lib/ionic-v1.3.3/css/ionic.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+    <!--Jquery-->
+    <script src="lib/jquery/jquery-3.1.1.min.js"></script>
+
+    <!-- Mapbox GL CSS-->
+    <link href="modules/OfflineMap/css/mapbox-gl.css" rel="stylesheet" />
+
+    <!-- Leaflet CSS-->
+    <link href="modules/OfflineMap/css/leaflet.css" rel="stylesheet">
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic-v1.3.3/js/ionic.bundle.js"></script>
+    <script src="lib/ngCordova/dist/ng-cordova.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+    <script src="js/routes.js"></script>
+    <script src="js/config-db.js"></script>
+
+    <script src="js/services/appService.js"></script>
+    <script src="js/services/utils.js"></script>
+    <script src="js/services/dba.js"></script>
+
+    <script src="js/resources/incident.js"></script>
+    <script src="js/resources/globalVariable.js"></script>
+
+
+    <!-- START Offline Map Module-->
+    <link href="modules/OfflineMap/css/styles.css" rel="stylesheet">
+
+    <!--Leaflet Draw plugin-->
+    <link rel="stylesheet" href="modules/OfflineMap/lib/leaflet-draw/dist/leaflet.draw.css">
+
+    <!--Leaflet MapBox GL plugin-->
+    <script src="modules/OfflineMap/lib/leaflet-mapbox-gl.js"></script>
+
+    <!--Leaflet Draw plugin-->
+    <script src="modules/OfflineMap/lib/leaflet-draw/dist/leaflet.draw.js"></script>
+
+    <!--Leaflet Vector Grid plugin-->
+    <script src="modules/OfflineMap/lib/leaflet-plugin/Leaflet.VectorGrid.bundled.js"></script>
+
+    <!--MBTiles Plugin-->
+    <script src="modules/OfflineMap/lib/leaflet-plugin/MBTiles/SqlLite/TileLayer.MBTiles.js"></script>
+    <script src="modules/OfflineMap/lib/leaflet-plugin/MBTiles/SqlDotJs/Leaflet.TileLayer.js"></script>
+
+    <script src="modules/OfflineMap/lib/sql/sql.js"></script>
+    <script src="modules/OfflineMap/lib/fetch/fetch.js"></script>
+    <script src="modules/OfflineMap/lib/moment/moment.js"></script>
+    <script src="modules/OfflineMap/lib/moment/locale/de.js"></script>
+    <script src="modules/OfflineMap/lib/angular-moment/angular-moment.js"></script>
+
+    <script src="modules/OfflineMap/js/app.js"></script>
+    <script src="modules/OfflineMap/js/routes.js"></script>
+    <script src="modules/OfflineMap/js/controllers/OfflineMapController.js"></script>
+    <script src="modules/OfflineMap/js/services/SessionService.js"></script>
+    <script src="modules/OfflineMap/js/resouces/OfflineMap.js"></script>
+    <script src="modules/OfflineMap/js/directives/offlineMap.js"></script>
+
+    <script src="modules/OfflineMap/js/config-db.js"></script>
+    <script src="modules/OfflineMap/js/sqlLites/tblLeafletMap.js"></script>
+    <script src="modules/OfflineMap/js/sqlLites/tblLeafletMapDatabaseFile.js"></script>
+    <script src="modules/OfflineMap/js/services/LeafletMapFactory.js"></script>
+    <script src="modules/OfflineMap/js/services/IonicPopupService.js"></script>
+
+    <!-- END Offline Module-->
+
+
+</head>
+</html>

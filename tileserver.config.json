@@ -1,0 +1,26 @@
+{
+  "options": {
+    "paths": {
+      "root": "www",
+      "mbtiles": "data",
+      "fonts": "",
+      "sprites": ""
+    },
+    "maxScaleFactor": 3,
+    "maxSize": 2048,
+    "pbfAlias": "pbf",
+    "serveAllFonts": false,
+    "serveStaticMaps": false
+  },
+  "data": {
+    "openmaptiles": {
+      "mbtiles": "openmaptiles.mbtiles"
+    },
+    "building": {
+      "mbtiles": "building.mbtiles"
+    },
+    "roads": {
+      "mbtiles": "roads.mbtiles"
+    }
+  }
+}

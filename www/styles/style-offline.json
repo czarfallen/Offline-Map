@@ -1,0 +1,15 @@
+{
+  "version": 8,
+  "name": "Empty Style",
+  "center": [
+    2.15,
+    41.38
+  ],
+  "zoom": 12,
+  "bearing": 0,
+  "pitch": 0,
+  "sources": {},
+  "sprite": "styles/osm-bright/sprite",
+  "glyphs": "fonts/{fontstack}/{range}.pbf",
+  "layers": []
+}
